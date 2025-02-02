@@ -1,0 +1,11 @@
+version: 1
+type: maven
+resolver:
+    serverId: artifactory-demo
+    snapshotRepo: libs-snapshot
+    releaseRepo: libs-release
+deployer:
+    serverId: artifactory-demo
+    snapshotRepo: libs-snapshot
+    releaseRepo: mvn-local-demo
+useWrapper: true
